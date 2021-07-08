@@ -285,12 +285,12 @@ main {
         font-size: 2.5rem;
         letter-spacing: 4px;
         font-weight: bold;
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
 
     .share__title {
         font-size: 1.3rem;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     
     .share__social {
