@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAKE A QUIZ</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+            <span class="question-counter" id="questionCounter">6 / 10</span>
+
+            <form class="answer-form" id="answerForm" name='quizForm'>
+                <h2 class="question" id="question"> Question of this quiz</h2>
+
+                <div class="answers" id="answers">
+                </div>
+
+                <button type="submit" class="btn submit" id="submit" name="submit">Submit</button>
+
+
+                <button type="button" class="btn back-to-score" id="backToScore">back to score</button>
+                <div class="prev-next">
+                    <button type="button" class="btn prev" id="prev">Previous</button>
+                    <button type="button" class="btn next" id="next">Next</button>
+                </div>
+            </form>
+
+            <div class="result" id="resultBlock">
+                <h2 class="result__title" id="resultTitle">Your score is</h2>
+                <span class="result__score" id="resultScore"></span>
+
+                <div class="share">
+                    <span class="share__title">Share this test</span>
+                    <div class="share__social-links">
+                        <a href="#" class="share__social share__social-tw"><img src="img/tw-icon.svg" alt="twitter"></a>
+                        <a href="#" class="share__social share__social-fb"><img src="img/fb-icon.svg" alt="facebook"></a>
+                        <a href="#" class="share__social share__social-tg"><img src="img/tg-icon.svg" alt="telegram"></a>
+                    </div>
+                </div>
+
+                <button class="btn results__check-answer" id="checkAnswer">Check answer</button>
+            </div>
+    </main>
+
+    <!-- <script  type="module" src="js/questions.js"></script> -->
+    <script  type="module" src="js/script.js"></script>
+</body>
+</html>
